@@ -3,9 +3,10 @@ import Counter from "./Counter" ;
 
 function App() {
   return (
-   <div>
+  <>
     <Counter />
-    </div>
+    <Counter /> <Counter /> <Counter /> <Counter />
+  </>
   
   );
 }
